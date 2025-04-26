@@ -1,0 +1,84 @@
+/* Inscription.css */
+
+/* Style global de la page */
+.inscription-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  padding: 2rem;
+}
+
+/* Style du formulaire d'inscription */
+.inscription-form {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #d1d5db;
+}
+
+/* Style du titre */
+.inscription-form h2 {
+  font-size: 1.8rem;
+  color: #2563eb;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Style des labels */
+.inscription-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+/* Style des champs de saisie */
+.inscription-form input {
+  width: 100%;
+  padding: 0.7rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+/* Style de focus des champs de saisie */
+.inscription-form input:focus {
+  border-color: #2563eb;
+}
+
+/* Style du bouton de soumission */
+.inscription-form button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Changement de couleur du bouton au survol */
+.inscription-form button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Style du lien de connexion */
+.inscription-form .footer {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.inscription-form .footer a {
+  color: #2563eb;
+  text-decoration: underline;
+}
